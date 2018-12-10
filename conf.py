@@ -19,9 +19,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'Snuggle-Docs'
-copyright = u'2018, Alexey and Marina Puchkov'
-author = u'Alexey and Marina Puchkov'
+project = u'Snuggle'
+copyright = u'2018, Oktopost'
+author = u'Oktopost'
 
 # The short X.Y version
 version = u''
@@ -101,7 +101,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Snuggle-Docsdoc'
+htmlhelp_basename = 'Snuggle-doc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -128,8 +128,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Snuggle-Docs.tex', u'Snuggle-Docs Documentation',
-     u'Alexey and Marina Puchkov', 'manual'),
+    (master_doc, 'Snuggle.tex', u'Snuggle Documentation',
+     u'Oktopost', 'manual'),
 ]
 
 
@@ -138,7 +138,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'snuggle-docs', u'Snuggle-Docs Documentation',
+    (master_doc, 'snuggle', u'Snuggle Documentation',
      [author], 1)
 ]
 
@@ -149,8 +149,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Snuggle-Docs', u'Snuggle-Docs Documentation',
-     author, 'Snuggle-Docs', 'One line description of project.',
+    (master_doc, 'Snuggle', u'Snuggle Documentation',
+     author, 'Snuggle', 'One line description of project.',
      'Miscellaneous'),
 ]
 
