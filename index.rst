@@ -1,11 +1,24 @@
-Welcome to Snuggle's documentation!
-========================================
-
 .. toctree::
 	:numbered:
 	:maxdepth: 2
 	:caption: Contents:
 
 
+Snuggle - PHP connector for CouchDB
+===================================
 
-Hello World
+
+
+Getting Started
+===============
+
+Composer 
+
+.. code-block:: php
+
+    composer require oktopost/snuggle
+
+.. note:: what?
+
+
+
